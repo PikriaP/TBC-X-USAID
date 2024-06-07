@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+p{
+    margin: 0px;
+}
+
+#header{
+    background-color:rgba(35, 33, 33);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+    position: relative;
+     z-index: 1000; 
+}
+#header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(35, 33, 33, 0.929);
+}
+.menu-align-items-center{
+    box-sizing: border-box;
+    padding: 15px 40px 15px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-conteiner{
+    margin: 0px;
+    display: block;
+    width: 50%;
+
+}
+#menu-list-color a{
+    color: rgb(0, 163, 224);
+}
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.menu-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu-list li :hover{
+    color: rgb(0, 163, 224);
+}
+#hid-chkk a label img{
+    width: 20px;
+    cursor: pointer;
+}
+.hamb{
+    width: 50px;
+    display: none;
+}
+#chk{
+    display: none;
+}
+#hid-chkk{
+    display: none;
+}
+.logo {
+    width: 30%;
+}
+.logo a img{
+    width: 40px;
+}
+.logo a{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.tec-edu{
+    width: 100%;
+    height: 352px;
+    
+}
+.tec-edu-img{
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    background-position: center;
+    background-image: url(https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1507,h_420,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg);
+}
+.tec-edu-title{
+    padding-top: 90px;
+    width: 100%;
+}
+.tec-edu-title h3{
+    margin: 0px 30px;
+    color: rgb(244, 244, 244);
+    font-size: 40px;
+    line-height: 1.6em;
+}
+.about-program{
+    width: 100%;
+    height: auto;
+    
+    background-color: rgb(43, 43, 43);
+}
+.program-conteiner{
+    width: 80%;
+    margin:auto;
+    height: 460px;
+    padding-top: 40px;
+}
+.program-info p{
+    color:  #F4F4F4;
+    font-size: 28px;
+    line-height: 1.6em;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.program-link{
+    margin-top: 30px;
+}
+.program-link a{
+    color:rgb(0, 163, 224) ;
+    font-weight: 600;
+    font-size: 24px;
+}
+.program-link a:hover{
+    color:rgb(95, 95, 95) ;
+}
+.courses{
+    width: 100%;
+    height: 250vh;
+    background-color: rgb(22, 22, 22);
+}
+.courses-conteiner{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+h4{
+    color: #DBDBDB;
+    font-size: 24px;
+}
+.courses-menu{
+    width: 100%;
+    height: 95%;
+}
+.courses-menu-1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
